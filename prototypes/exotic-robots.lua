@@ -21,15 +21,15 @@ table.insert(
 )
 
 data.raw.recipe["ei_construction-bot"].ingredients = {
-    {"construction-robot", 1},
-    {"fast-inserter", 2},
-    {"ei_electronic-parts", 2}
+    {type="item", name="construction-robot", amount=1},
+    {type="item", name="fast-inserter", amount=2},
+    {type="item", name="ei_electronic-parts", amount=2}
 }
 
 data.raw.recipe["ei_cargo-bot"].ingredients = {
-    {"logistic-robot", 1},
-    {"iron-chest", 2},
-    {"ei_electronic-parts", 2}
+    {type="item", name="logistic-robot", amount=1},
+    {type="item", name="iron-chest", amount=2},
+    {type="item", name="ei_electronic-parts", amount=2}
 }
 
 
@@ -44,16 +44,16 @@ data.raw.technology["ei_advanced-bots"].prerequisites = {
 }
 
 data.raw.recipe["ei_advanced-bot-engine"].ingredients = {
-    {"flying-robot-frame", 2},
-    {"ei_carbon-structure", 3},
-    {"ei_advanced-motor", 2},
-    {"ei_superior-data", 1},
+    {type="item", name="flying-robot-frame", amount=2},
+    {type="item", name="ei_carbon-structure", amount=3},
+    {type="item", name="ei_advanced-motor", amount=2},
+    {type="item", name="ei_superior-data", amount=1},
     {type="fluid", name="lubricant", amount=50},
 }
 
 data.raw.recipe["ei_advanced-port"].ingredients = {
-    {"roboport", 4},
-    {"processing-unit", 25},
-    {"ei_advanced-motor", 15},
-    {"ei_magnet", 6},
+    {type="item", name="roboport", amount=4},
+    {type="item", name="processing-unit", amount=25},
+    {type="item", name="ei_advanced-motor", amount=15},
+    {type="item", name="ei_magnet", amount=6},
 }
